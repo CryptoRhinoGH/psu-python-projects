@@ -33,7 +33,7 @@ Output:
 
 def numberToBase(number, base):
     if n == 0:
-        return [0]
+        return '0'
     chars = []
     while n>0:
         chars.append(int(number % base))
